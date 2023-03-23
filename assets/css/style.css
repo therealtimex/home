@@ -369,7 +369,19 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 34px;
   }
 }
-#hero .hero-content .btn-get-started, #hero .hero-content .btn-projects {
+#hero .hero-content .btn-get-started, #hero .hero-content .btn-bang-gia-dat-cap-tinh, #hero .hero-content .btn-projects {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #fff;
+}
+#hero .hero-content .btn-quy-hoach-cap-huyen, #hero .hero-content .btn-ke-hoach-cap-huyen {
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   font-weight: bold;
@@ -396,6 +408,30 @@ h1, h2, h3, h4, h5, h6 {
 #hero .hero-content .btn-projects:hover {
   background: none;
   color: #50d8af;
+}
+#hero .hero-content .btn-bang-gia-dat-cap-tinh {
+  background: #2793a7;
+  border: 2px solid #2793a7;
+}
+#hero .hero-content .btn-bang-gia-dat-cap-tinh:hover {
+  background: none;
+  color: #2793a7;
+}
+#hero .hero-content .btn-quy-hoach-cap-huyen {
+  background: #e1a10b;
+  border: 2px solid #e1a10b;
+}
+#hero .hero-content .btn-quy-hoach-cap-huyen:hover {
+  background: none;
+  color: #e1a10b;
+}
+#hero .hero-content .btn-ke-hoach-cap-huyen {
+  background: #9b4922;
+  border: 2px solid #9b4922;
+}
+#hero .hero-content .btn-ke-hoach-cap-huyen:hover {
+  background: none;
+  color: #9b4922;
 }
 #hero .hero-slider {
   z-index: 8;
