@@ -186,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #50d8af;
+  color: #21568a;
 }
 .navbar .dropdown ul {
   display: block;
@@ -355,7 +355,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 #hero .hero-content h2 {
-  color: #0c2e8a;
+  color: #21568a;
   margin-bottom: 30px;
   font-size: 64px;
   font-weight: 700;
@@ -410,28 +410,28 @@ h1, h2, h3, h4, h5, h6 {
   color: #50d8af;
 }
 #hero .hero-content .btn-bang-gia-dat-cap-tinh {
-  background: #2793a7;
-  border: 2px solid #2793a7;
-}
-#hero .hero-content .btn-bang-gia-dat-cap-tinh:hover {
-  background: none;
-  color: #2793a7;
-}
-#hero .hero-content .btn-quy-hoach-cap-huyen {
-  background: #e1a10b;
-  border: 2px solid #e1a10b;
-}
-#hero .hero-content .btn-quy-hoach-cap-huyen:hover {
-  background: none;
-  color: #e1a10b;
-}
-#hero .hero-content .btn-ke-hoach-cap-huyen {
   background: #9b4922;
   border: 2px solid #9b4922;
 }
-#hero .hero-content .btn-ke-hoach-cap-huyen:hover {
+#hero .hero-content .btn-bang-gia-dat-cap-tinh:hover {
   background: none;
   color: #9b4922;
+}
+#hero .hero-content .btn-quy-hoach-cap-huyen {
+  background: #2793a7;
+  border: 2px solid #2793a7;
+}
+#hero .hero-content .btn-quy-hoach-cap-huyen:hover {
+  background: none;
+  color: #2793a7;
+}
+#hero .hero-content .btn-ke-hoach-cap-huyen {
+  background: #e1a10b;
+  border: 2px solid #e1a10b;
+}
+#hero .hero-content .btn-ke-hoach-cap-huyen:hover {
+  background: none;
+  color: #e1a10b;
 }
 #hero .hero-slider {
   z-index: 8;
@@ -471,7 +471,7 @@ section {
 }
 .section-header h2 {
   font-size: 32px;
-  color: #0c2e8a;
+  color: #21568a;
   text-transform: uppercase;
   font-weight: 700;
   position: relative;
@@ -561,7 +561,7 @@ section {
   }
 }
 #about .content h2 {
-  color: #0c2e8a;
+  color: #21568a;
   font-weight: 700;
   font-size: 36px;
   font-family: "Raleway", sans-serif;
@@ -621,8 +621,7 @@ section {
   margin-top: 34px;
 }
 #services .box .icon i:before {
-  background: #0c2e8a;
-  background: linear-gradient(45deg, #50d8af 0%, #a3ebd5 100%);
+  background: #2793a7;
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -680,10 +679,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #50d8af;
+  border: 1px solid #2793a7;
 }
 #clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #50d8af;
+  background-color: #2793a7;
 }
 
 /* Our Portfolio Section
@@ -889,16 +888,16 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #50d8af;
+  border: 1px solid #2793a7;
 }
 #testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #50d8af;
+  background-color: #2793a7;
 }
 
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: #081e5b;
+  background: #e1a10b;
   background-size: cover;
   padding: 40px 0;
 }
